@@ -1,0 +1,93 @@
+@font-face {
+    font-family: josefin;
+    src: url("../fonts/josefin-sans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: robotoo;
+    src: url("../fonts/roboto-2014/Roboto-Regular.ttf");
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla';
+    padding: 20px 0;
+    /*background-image: url("../images/background.jpg");*/
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+.header {
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.templateBG {
+    background-color: #f3f3f3;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+.progress {
+    margin-bottom: 0;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: none;
+}
+
+h5 {
+    margin-bottom: 10px;
+    margin-top: 37px;
+    padding: 15px;
+    border-bottom: solid #f3f3f3 2px;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+h6 {
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+p {
+    text-align: justify;
+}
