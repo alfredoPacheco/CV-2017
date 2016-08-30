@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: josefin;
     src: url("../fonts/josefin-sans/JosefinSans-Regular.ttf");
 }
@@ -91,4 +91,17 @@ h6 {
 
 p {
     text-align: justify;
+}
+
+.tdTitle {
+    border-top: transparent solid 10px;
+}
+
+@media print {
+    .progress-bar {
+        text-align: left;
+    }
+    a[href]:after {
+        content: "";
+    }
 }
